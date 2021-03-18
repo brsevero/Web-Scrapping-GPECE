@@ -1,5 +1,5 @@
 library(RSelenium)
-driver <- rsDriver(browser=c("chrome"), chromever = "87.0.4280.88")
+driver <- rsDriver(browser=c("chrome"), chromever = "88.0.4324.96")
 remote_driver <- driver[["client"]]
 remote_driver$navigate("http://diana.imis.athena-innovation.gr/DianaTools/index.php?r=MicroT_CDS/index")
 
